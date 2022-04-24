@@ -1,12 +1,10 @@
-package ru.skypro;
+package ru.skypro.hw9objects;
 
-import ru.skypro.hw9objects.Author;
-import ru.skypro.hw9objects.Book;
+public class Hw9Objects {
 
-public class Main {
+    public static void hw9Objects() {
 
-    public static void main(String[] args) {
-	    //Задаю книги и авторов для примера:
+        //Задаю книги и авторов для примера:
         String bookNameFirst = "Бесы";
         String authorNameFirst = "Федор Достоевский";
         int publishingYearFirst = 1872;
@@ -30,8 +28,10 @@ public class Main {
 
 
         first.setPublishingYear(2020);
-        System.out.println("публикация " + first.getPublishingYear() + " года");
+        System.out.println("publishingYearFirst = " + first.getPublishingYear());
 
 
     }
+
+
 }
